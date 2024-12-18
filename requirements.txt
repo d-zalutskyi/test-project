@@ -6,4 +6,4 @@ alembic
 httpx
 aiosqlite
 greenlet
-aiohttp
+httpx
