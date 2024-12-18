@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+asyncpg
+alembic
+httpx
+aiosqlite
+greenlet
+aiohttp

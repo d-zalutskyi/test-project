@@ -1,0 +1,57 @@
+# Python-related ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+*.env
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.orig
+
+# Logs and debugging
+*.log
+*.sqlite3
+*.db
+*.sqlite
+
+# Alembic migrations
+migrations/versions/*.pyc
+migrations/__pycache__/
+migrations/env.pyc
+
+# Uvicorn logs
+*.pid
+*.sock
+uvicorn.log
+
+# Asyncpg and SQLite caches
+asyncpg_cache/
+aiosqlite_cache/
+
+# HTTPX session files
+httpx_cache/
+
+# Byte-compiled and temporary files
+*.tmp
+*.bak
+*.old
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git-related files
+*.rej
+*.orig
